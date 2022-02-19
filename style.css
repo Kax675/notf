@@ -1,0 +1,165 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@keyframes comefromright {
+    from {
+        right: -100%;
+        opacity: 0;
+
+        
+    }
+    to {
+        right: 1rem;
+        opacity: 1;
+    }
+}
+@keyframes gotoright {
+    from {
+
+        right: 1rem;
+        opacity: 1;
+
+        
+    }
+    to {
+        right: -100%;
+        opacity: 0;
+    }
+}
+
+#notf {
+    
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 400px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.233);
+    animation: comefromright 1s ;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.212);
+}
+html {
+    overflow: hidden;
+}
+#closenotf {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+#notftitle {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#notfbody {
+    position: absolute;
+    top: 3.6rem;
+    left: 5rem;
+    color: black;
+    font-size: 0.7rem;
+
+
+}
+
+#notficon {
+    position: absolute;
+    top: 0.6rem;
+    left: 1rem;
+    color: black;
+    width: 20px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+}
+
+#notficontext {
+    position: absolute;
+    top: 0rem;
+    left: 3rem;
+    color: rgba(0, 0, 0, 0.438);
+    font-size: .8rem;
+    user-select: none;
+}
+
+#notfimage {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    width: 3rem;
+
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+#notfcontainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+
+
+@media only screen 
+and (max-width : 430px) {
+    @keyframes comefromright {
+        from {
+            top: -100%;
+            opacity: 0;
+    
+            
+        }
+        to {
+            top: 0;
+            opacity: 1;
+        }
+    }
+    @keyframes gotoright {
+        from {
+    
+            top: 0;
+            opacity: 1;
+    
+            
+        }
+        to {
+            top: -100%;
+            opacity: 0;
+        }
+    }
+    #notf {
+    
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.233);
+        animation: comefromright 1s;
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.212);
+    }
+}
