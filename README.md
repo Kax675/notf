@@ -57,3 +57,8 @@ body: `path (File Or URL)`  | Sets Body
 
 
 ![alt text](https://cdn.glitch.global/20934380-c678-4d7b-9caa-dc333b22741c/notfdesktop.png)
+
+### Mobile Preview
+
+
+![alt text](https://cdn.glitch.global/20934380-c678-4d7b-9caa-dc333b22741c/mobilenotf.png?v=1645273554943)
