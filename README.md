@@ -32,13 +32,13 @@ closable: `boolean` | Make Notification Closable With Tiny `X` Button
 
 icon: `path (File Or URL)`  | Sets Tiny Icon
 
-iconText: `string` OR `variable` | Sets the Text Next to the Tiny Icon
+iconText: `string` | Sets the Text Next to the Tiny Icon
 
-title: `string` OR `variable` | Sets Title
+title: `string` | Sets Title
 
 image: `path (File OR URL)`  | Sets Large Image
 
-body: `path (File Or URL)`  | Sets Body
+body: `string`  | Sets Body
 
 ## Example
 
